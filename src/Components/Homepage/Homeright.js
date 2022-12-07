@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homeright = () => {
   return (
-    <div>Homeright</div>
+    <div className='w-1/4'>Homeright</div>
   )
 }
 

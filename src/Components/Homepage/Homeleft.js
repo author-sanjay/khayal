@@ -8,7 +8,7 @@ import { Avatar } from "@mui/material";
 const Homeleft = () => {
   return (
     <div
-      className="w-1/4 grid justify-items-end"
+      className=" grid justify-items-end w-1/4"
       style={{ minHeight: "100vh" }}
     >
       <div className="flex flex-col mt-5" style={{justifyContent:"space-between"}}>

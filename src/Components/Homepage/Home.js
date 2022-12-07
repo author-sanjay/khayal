@@ -7,8 +7,8 @@ import Homeright from "./Homeright";
 
 const Home = () => {
   return (
-    <div className="flex w-full flex-col bg-hotorange">
-      <div className="flex xl:mx-40 justify-between">
+    <div className="flex flex-col bg-hotorange" style={{width:"100%"}}>
+      <div className="flex  justify-between">
         <Homeleft />
 
         <Homemiddel />
