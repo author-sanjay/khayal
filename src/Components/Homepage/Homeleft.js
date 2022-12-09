@@ -19,7 +19,7 @@ const Homeleft = () => {
       >
         <div className="flex flex-col " style={{marginBottom:"350px"}}>
           
-          <img src={ink} style={{ width: "40px", height: "40px" }} />
+          <img src={ink} alt="logo" style={{ width: "40px", height: "40px" }} />
           
           <div className="mt-10 flex flex-row cursor-pointer">
             <HomeIcon style={{ fontSize: "35" }} />
@@ -42,7 +42,7 @@ const Homeleft = () => {
           </div>
           
           <div className="mt-5 bg-white pl-4 py-2 rounded-[30px] flex flex-row cursor-pointer">
-            <img src={ink} style={{ width: "40px", height: "40px" }} />
+            <img src={ink} alt="logo" style={{ width: "40px", height: "40px" }} />
             <span className="text-[25px] ml-3 mt-1">Write</span>
           </div>
         

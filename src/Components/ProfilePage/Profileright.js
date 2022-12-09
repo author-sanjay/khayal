@@ -10,7 +10,7 @@ import AppsIcon from '@mui/icons-material/Apps';
 
 const Profileright = () => {
   return (
-    <div className="w-3/4 mt-20">
+    <div className="ss:w-full xs:w-full sm:w-3/4 md:w-3/4 lg:w-3/4 xl:w-3/4  bg-white">
       <div className="ss:block xs:block sm:hidden md:hidden lg:hidden xl:hidden bg-hotorange h-10 ">
         <div className="flex flex-row justify-between mx-3">
           <div className="mt-2 flex flex-row cursor-pointer">
@@ -40,7 +40,8 @@ const Profileright = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mb-5" style={{ placeItems: "center" }}>
+      <div className='w-full' style={{placeItems:"center"}}>
+      <div className="flex flex-col w-full mt-20 mb-5" style={{ placeItems: "center" }}>
         <div className="flex flex-col" style={{ placeItems: "center" }}>
           <Avatar className="" style={{ height: "150px", width: "150px" }} />
           <span className="text-[30px] font-semibold mt-5">Name</span>
@@ -77,37 +78,37 @@ const Profileright = () => {
 
       </div>
       <hr/>
-      <div className='grid grid-cols-3 mt-5 mb-5 gap-4' style={{placeItems:"center"}}>
-        <div className='bg-white w-full rounded-[20px]'>
+      <div className='grid grid-cols-3 mt-5 mb-5  mx-10 gap-4' style={{placeItems:"center"}}>
+        <div className='bg-hotorange w-full py-2 rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
-        <div className='bg-white w-full rounded-[20px]'>
+        <div className='bg-hotorange w-full  py-2  rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
-        <div className='bg-white w-full rounded-[20px]'>
+        <div className=' py-2 bg-hotorange w-full rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
-        <div className='bg-white w-full rounded-[20px]'>
+        <div className='bg-hotorange  py-2 w-full rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
-        <div className='bg-white w-full rounded-[20px]'>
+        <div className='bg-hotorange w-full py-2  rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
-                <div className='bg-white w-full rounded-[20px]'>
+                <div className='bg-hotorange w-full py-2  rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
-        </div>        <div className='bg-white w-full rounded-[20px]'>
+        </div>        <div className='bg-hotorange w-full py-2  rounded-[20px]'>
             <div className='text-[25px] ml-3'>Title</div>
             <div className='text-[15px] ml-3'>Content</div>
         </div>
 
         
-        
+        </div>
 
       </div>
     </div>
