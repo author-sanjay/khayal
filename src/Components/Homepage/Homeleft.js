@@ -5,8 +5,10 @@ import BookmarkIcon from "@mui/icons-material/Bookmark";
 import SearchIcon from "@mui/icons-material/Search";
 import WhatshotIcon from "@mui/icons-material/Whatshot";
 import { Avatar } from "@mui/material";
+import Header from "./Header";
 const Homeleft = () => {
   return (
+    
     <div
       className="flex flex-col ss:hidden xs:hidden sm:grid md:grid lg:gird xl:grid justify-items-end w-1/4 mr-2"
       style={{ minHeight: "100vh", placeItems: "end" }}
@@ -62,6 +64,7 @@ const Homeleft = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

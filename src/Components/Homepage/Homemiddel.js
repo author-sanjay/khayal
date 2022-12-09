@@ -3,6 +3,12 @@ import React from "react";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import CommentIcon from "@mui/icons-material/Comment";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
+import HomeIcon from "@mui/icons-material/Home";
+import SearchIcon from "@mui/icons-material/Search";
+import WhatshotIcon from "@mui/icons-material/Whatshot";
+import ink from "./ink.png";
+
+
 const Homemiddel = () => {
   return (
     <div
@@ -13,7 +19,36 @@ const Homemiddel = () => {
         overflow: "scroll",
       }}
     >
-      <div className="flex mt-20 mx-auto flex-col ">
+      <div className="flex ss:mt-0 xs:mt-0 sm:mt-5 md:mt-20 lg:mt-20 xl:mt-20  mx-auto flex-col ">
+        <div className='ss:block xs:block sm:hidden md:hidden lg:hidden xl:hidden bg-hotorange h-10 '>
+          <div className='flex flex-row justify-between mx-3'>
+          <div className="mt-2 flex flex-row cursor-pointer">
+            <HomeIcon style={{ fontSize: "20" }} />
+            <span className="text-[15px] ml-1">Home</span>
+          </div>
+
+          <div className="mt-2 flex ml-3 flex-row cursor-pointer">
+            <BookmarkIcon style={{ fontSize: "20" }} />
+            <span className="text-[15px] ml-1">Bookmarks</span>
+          </div>
+
+          <div className="mt-2 flex flex-row ml-3 cursor-pointer">
+            <WhatshotIcon style={{ fontSize: "20" }} />
+            <span className="text-[15px] ml-1">Trending</span>
+          </div>
+
+          <div className="mt-2 ml-3 flex flex-row cursor-pointer">
+            <SearchIcon style={{ fontSize: "20" }} />
+            <span className="text-[15px] ml-1">Search</span>
+          </div>
+          
+          <div className="ml-3 my-[-2px] flex flex-row cursor-pointer">
+            <span className="text-[15px] bg-white rounded-[30px] px-1 py-1 ml-1 mt-2">Write</span>
+          </div>  
+          </div>
+          
+        </div>
+        <div className='ss:block xs:block sm:block md:block lg:block xl:block'>
         <span className="text-[30px] ml-3">Home</span>
         <div className="">
           <div
@@ -162,6 +197,7 @@ const Homemiddel = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
