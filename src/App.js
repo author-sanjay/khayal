@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Homepage/Home";
 import Login from "./Components/Login/Login";
+import PostPage from "./Components/PostPage/PostPage";
 import Profile from "./Components/ProfilePage/Profile";
 import Upload from "./Components/Upload/Upload"
 function App() {
@@ -55,6 +56,19 @@ function App() {
               style={{ backgroundColor: "#fff", minHeight: "100vh" }}
             >
               <Profile/>
+            </div>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/post"
+          element={
+            <div
+              className="flex flex-row"
+              style={{ backgroundColor: "#fff", minHeight: "100vh" }}
+            >
+              <PostPage/>
             </div>
           }
         />
