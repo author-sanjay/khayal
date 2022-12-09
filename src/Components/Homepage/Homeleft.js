@@ -52,7 +52,7 @@ const Homeleft = () => {
           
           <div className="bg-white px-2 py-2 rounded-[30px]">
             
-            <div className="flex flex-row">
+            <div className="flex flex-row cursor-pointer">
               
               <Avatar style={{ height: "60px", width: "60px" }} />
               <div className="flex flex-col">
