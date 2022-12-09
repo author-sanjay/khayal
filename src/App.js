@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./Components/Homepage/Home";
 import Login from "./Components/Login/Login";
-
+import Upload from "./Components/Upload/Upload"
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +28,19 @@ function App() {
               style={{ backgroundColor: "#fff", minHeight: "100vh" }}
             >
               <Home/>
+            </div>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/upload"
+          element={
+            <div
+              className="flex flex-row"
+              style={{ backgroundColor: "#fff", minHeight: "100vh" }}
+            >
+              <Upload/>
             </div>
           }
         />
