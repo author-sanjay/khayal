@@ -15,6 +15,7 @@ const Home = () => {
 
         <Homeright />
       </div>
+      
     </div>
   );
 };
