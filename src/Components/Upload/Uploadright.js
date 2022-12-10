@@ -3,7 +3,7 @@ import React from "react";
 const Uploadright = () => {
   return (
     <div className="w-1/4" style={{ maxHeight: "100vh" }}>
-      <div className="flex flex-col mx-10 my-10">
+      <div className="ss:hidden xs:hidden sm:block md:block lg:block xl:block flex flex-col mx-10 my-10">
         <span className="text-[25px]">Tags</span>
         <input
           className="text-[20px] cursor-pointer mt-5 opacity-100 text-black"
