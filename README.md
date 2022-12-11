@@ -1,11 +1,23 @@
-# Getting Started with Create React App
+# Khayal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a blogging website made with React Js Tailwind Css and Spring boot.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+1. React Js
+2. Node Js
+3. SpringBoot
+4. MySql
+5. Tailwind CSS
 
+
+## How To Run this App...
+
+We do not recommend that you run this app for commercial purpose. Please USE it only for learning purpose
+
+### First Clone the Repo
+### Run `npm install`
+### Then
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -39,32 +51,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Users can register
+2. Users post edit update delete post
+3. Users Can like Follow and save posts for future...
